@@ -1,0 +1,29 @@
+#users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.boxes {
+  width: 240px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.proPic {
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
