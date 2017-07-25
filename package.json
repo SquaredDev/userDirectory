@@ -2,10 +2,14 @@
   "name": "userDirectory",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node main"
+  },
   "repository": "git@github.com:SquaredDev/userDirectory.git",
   "author": "James <boydston.j@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mustache-express": "^1.2.5"
   }
 }
