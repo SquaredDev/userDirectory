@@ -10,6 +10,12 @@
   margin: 20px;
 }
 
+.boxes span {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .proPic {
   float: left;
 }
@@ -21,6 +27,14 @@
 .name {
   color: blue;
   font-size: 24px;
+}
+
+.position {
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 li {
@@ -35,4 +49,5 @@ img {
 
 a {
   text-decoration: none;
+  color: black;
 }
