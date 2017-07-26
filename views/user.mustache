@@ -8,10 +8,19 @@
   <body>
     <img class="proPic" src="{{avatar}}">
     <h1>{{name}}</h1>
-    <p>{{address.city}}, {{address.country}} | {{job}} {{company}}</p>
+    <p>{{address.city}}, {{address.country}} | {{job}}
+        {{^job}}
+        <span class="job">Availible for hire</span>
+        {{/job}}
+       {{company}}</p>
     <p>{{email}} | {{phone}}</p>
-    <p>{{university}}</p>
-    <p>{{skills}}</p>
-
+    {{#university}}
+    <br><p><strong>Education</strong> {{university}}</p>
+    {{/university}}
+    <br><p><strong>Skills</strong>
+    {{#skills}}
+    {{.}}<br>
+    {{/skills}}
+    </p>
   </body>
 </html>

@@ -14,6 +14,15 @@
   float: left;
 }
 
+.job {
+  color: red;
+}
+
+.name {
+  color: blue;
+  font-size: 24px;
+}
+
 li {
   list-style: none;
 }
